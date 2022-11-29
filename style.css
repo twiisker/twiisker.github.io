@@ -1,0 +1,48 @@
+body {
+  background-image: url('img/red_tree.jpg');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.title-large {
+  font-size: 1.9em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+}
+
+#second-cane {
+  transform: scaleX(-1);
+}
+
+.weeks {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.week {
+  border: 4px solid black;
+  border-radius: 9px;
+  margin-bottom: 2%;
+  text-align: center;
+  padding: 10px 30px 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+.fa-solid fa-gifts fa-5x {
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}
