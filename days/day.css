@@ -1,10 +1,36 @@
-html, body {
+figure {
+  width: 85%;
+  background-color: white;
+  box-shadow: 7px 7px 7px #4d4d4e;
+  padding: 0px 10px;
+  border: 1px solid black;
+  margin: auto;
+
+}
+
+figcaption {
+  font-family: 'IM Fell English';
+  font-size: 1em;
+  text-align: justify;
+  padding: 10px 15px;
+}
+
+img {
+  width: 100%;
+}
+
+html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
-  background-color: white;
+  background-color: darkgrey;
+  margin: 0;
+  padding: 0;
+  height: 80%;
+  align-content: center;
 }
 
 .title-large {
@@ -38,11 +64,15 @@ body {
 }
 
 .grid-container {
+  position: relative;
+  top: 20px;
+  bottom: 20px;
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .week {
@@ -50,10 +80,9 @@ body {
   border-radius: 9px;
   background-color: white;
   text-align: center;
-  width: 150px;
-  height: 150px;
-  line-height: 70px;
-  margin-bottom: 10px;
+  width: 175px;
+  height: 175px;
+  line-height: 80px;
 }
 
 .btn {
@@ -66,4 +95,18 @@ body {
 
 .fa-solid fa-gifts fa-5x {
   filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}
+
+footer {
+  text-align: center;
+  background-color: #474350;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  line-height: 60px
+}
+
+footer.a {
+  background-color: #099773;
 }
