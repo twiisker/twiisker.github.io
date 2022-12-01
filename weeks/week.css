@@ -5,10 +5,11 @@ html {
 }
 
 body {
+  position: relative;
   background-color: white;
   margin: 0;
   padding: 0;
-  height: 80%;
+  min-height: 100%;
   align-content: center;
 }
 
@@ -62,6 +63,7 @@ body {
   width: 175px;
   height: 175px;
   line-height: 80px;
+  margin-bottom: 5px;
 }
 
 .btn {
