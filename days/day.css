@@ -1,18 +1,17 @@
 figure {
   width: 250px;
+  height: 450px;
   background-color: white;
   box-shadow: 7px 7px 7px #4d4d4e;
   padding: 0px 10px;
   border: 1px solid black;
-  margin: auto;
-
 }
 
 figcaption {
   font-family: 'IM Fell English';
   font-size: 1em;
   text-align: justify;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 
 img {
@@ -71,18 +70,9 @@ body {
   margin: auto;
   margin-bottom: 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.week {
-  border: 2px solid #e4c5af;
-  border-radius: 9px;
-  background-color: white;
-  text-align: center;
-  width: 175px;
-  height: 175px;
-  line-height: 80px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .btn {
@@ -90,11 +80,6 @@ body {
   color: white;
   padding: 10px 15px;
   text-decoration: none;
-}
-
-
-.fa-solid fa-gifts fa-5x {
-  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
 }
 
 footer {
