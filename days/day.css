@@ -20,6 +20,12 @@ figcaption {
   width: 30px;
 }
 
+#rings {
+  width: 15%;
+  margin: auto;
+  display: block;
+}
+
 #heart {
   position: relative;
   left: 80%;
